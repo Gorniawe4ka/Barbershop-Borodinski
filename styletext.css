@@ -1,0 +1,243 @@
+html, body{
+    padding:0;
+    margin:0;
+}
+body{
+    font-size:16px;
+    font-family:"PT Sans Narrow", sans-serif;
+    background:url('pict/pattern-content.png') repeat;
+}
+.layout-center-wrapper{
+    width:940px;
+    padding:0 10px;
+    margin:0 auto;
+}
+.layout-center-wrapper:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.header{
+    color:white;
+    background:black;
+}
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active{
+    color:white;
+}
+.top-menu{
+    float:left;
+    width:780px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.top-menu li{
+    display:inline-block;
+}
+.top-menu a{
+    display:block;
+    padding:30px 20px;
+	margin-right:-0.2em;
+    text-decoration:none;
+    text-transform:uppercase;    
+}
+.top-menu a:hover{
+    background:#242424;
+}
+.top-menu a.active{
+    box-shadow:0 25px 0 -20px white;
+}
+.top-menu a.active:hover{
+    background:black;
+}
+.account-menu{
+    float:right;
+    max-width:140px;
+}
+.account-menu-enter{
+    display:block;
+    padding:30px 0;
+    padding-left:35px;
+    text-decoration:none;
+    text-transform:uppercase; 
+	position: relative;
+}
+.account-menu-enter:before{
+    content:'';
+    position:absolute;
+	top:33px;
+    left:0;
+    width:16px;
+    height:16px;
+    background:url('img/icon-enter.png') no-repeat 0 0;
+}
+.page-title{
+	margin-top: 50px;
+}
+h1{
+	padding: 0;
+	margin:0;
+	text-transform: uppercase;
+	font-size:30px; 
+    line-height:42px;   
+    font-weight:bold;
+}
+.breadcrumbs{
+	margin: 0;
+	padding:0;
+}
+.breadcrumbs li{
+	display: inline-block;
+	padding-left: 20px;
+	background:url('img/icon-romb.png') no-repeat 0 50%;
+	line-height:42px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+.breadcrumbs li:first-child{
+	padding-left: 0px;
+	background: none;
+}
+.content-title{
+	margin-top:50px;    
+    margin-bottom:70px;
+    text-align:center;
+}
+.content-title h4{
+	position:relative;
+    display:inline;
+    font-size:48px;   
+    line-height:43px;
+	text-transform: uppercase;	
+    padding:0 25px;
+    margin:0;          
+    z-index:2;
+	background:url('pict/pattern-content.png') repeat;
+}
+.content-title:after{
+	position:relative;
+    content:"";
+    display:block;
+    border-bottom:2px solid black;
+    top:-21px; 
+    z-index:1;
+}
+.page-column-left{
+	float: left;
+	width: 380px;
+	margin-right: 40px;	
+}
+.title{
+	font-size:24px;   
+    line-height:30px;
+	text-transform: uppercase;
+	font-weight:bold;
+	margin-bottom: 40px;
+}
+.products{
+	margin:0;
+    padding:0;
+    list-style:none;
+	margin-bottom: 70px;
+}
+.products li{
+	padding-left:20px;
+    margin-bottom:25px;
+    background:url('img/icon-romb.png') no-repeat 0 50%;
+	line-height:24px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+.page-column-right{
+	float:right;
+	width: 460px;
+}
+.service-price{
+	width: 460px;
+	border-collapse:collapse;
+	line-height:24px;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size:14px;  
+}
+.service-price td, .service-price th{
+	width:50%;
+    padding:0.5em 20px;
+    border:2px solid black;
+}
+.service-price td{
+	text-align: center;
+}
+.service-price th{
+	text-align: left;
+}
+.section-about-us{
+	clear:both;
+	margin-bottom: 80px;
+}
+.description-column p{
+	line-height:24px;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size:14px; 
+}
+.section-about-us .description-column{
+	display: inline-block;
+	width: 380px;
+}
+.section-about-us .description-column:last-child{
+	float: right;
+	width: 460px;
+}
+.footer{
+    margin-top:30px;
+    padding:60px 0;
+    background:#1f1f1f url('pict/pattern-footer.png') repeat;
+	color: white;
+}
+.contacts-address{
+	float: left;
+	width:33.333333333333%;
+}
+.footer .contacts-address p{
+	margin: 0;
+	padding: 0;
+}
+.social-buttons{
+	float: left;
+	width:33.333333333333%;
+}
+.btn{
+	padding: 15px 33px;
+	border: 1px solid black;
+	background: black;
+	text-transform:uppercase;
+	text-decoration: none;
+	color: white;
+	display: table;
+}
+.btn-social{
+	margin-right: 10px;
+}
+.btn-social-vk{
+	background-image:url('pict/icon-vk.png');
+	width: 43px;
+	height: 43px;
+}
+.btn-social-fb{
+	background:url('pict/icon-vk.png');
+	width: 43px;
+	height: 43px;
+}
+.btn-social-inst{
+background:url('pict/icon-vk.png');
+	width: 43px;
+	height: 43px;
+}
+.copyright{
+	float:right;
+	width:33.333333333333%;
+}
